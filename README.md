@@ -1,7 +1,7 @@
 # Celery for Elixir
 
-[!WARNING]
-This port is partial and only supports functionality to be able to write [OpenRelik](https://openrelik.org) workers!
+> [!WARNING]
+> This port is partial and only supports functionality to be able to write [OpenRelik](https://openrelik.org) workers!
 
 Minimal, wire-compatible Elixir port of Python [Celery](https://docs.celeryq.dev/) (`v5.7.0rc1`) backed by **Redis** (broker transport via [`kombu`](https://hex.pm/packages/kombu) and result store via `Celery.Backend.Redis`).
 
